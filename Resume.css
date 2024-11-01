@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+}
+#body-header{
+    height:65vh;
+    opacity: 0.8;
+    background-image:url(coding-vs-programming-2.webp);
+    background-size: contain;
+    /* background-size: 100%; */
+    /* background-position: center; */
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+.horizontal-list{
+    list-style: none;
+    padding-left:0px;
+    
+}
+.horizontal-list li{
+    display: inline-block;
+    margin:0px 8px 0px 8px;
+}
+.horizontal-list li a{
+    color:white;
+    text-decoration: none;
+}
+.horizontal-list li a:hover{
+    color:slategray;
+    text-decoration: underline;
+}
+.text-center{
+    text-align: center;
+}
